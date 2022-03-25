@@ -1,0 +1,25 @@
+Script started on 2022-03-26 00:06:21+02:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="114" LINES="46"]
+[?2004h]0;dev@box: ~/docker/docker-course/pt1/ex1.1[01;32mdev@box[00m:[01;34m~/docker/docker-course/pt1/ex1.1[00m$ ddoocckkeerr  ccoonnttaaiinneerr  rruu	n nn[K--dd  nnggiinnxx
+[?2004lf5d071587bb0f06ab1f654cc5eeab11ed2ab5826ec26d2309a8d5d0fd678b4fe
+[?2004h]0;dev@box: ~/docker/docker-course/pt1/ex1.1[01;32mdev@box[00m:[01;34m~/docker/docker-course/pt1/ex1.1[00m$ [Adocker container run -d nginx
+[?2004l704127b613e797e107e849bf19137e1d3ef76e09c9cef9e51aa8bf095b4c9d33
+[?2004h]0;dev@box: ~/docker/docker-course/pt1/ex1.1[01;32mdev@box[00m:[01;34m~/docker/docker-course/pt1/ex1.1[00m$ [Adocker container run -d nginx
+[?2004l3bbeff7b6f147391ecc7413b5c420825543baa4038cf72ace6ae0709a533ca94
+[?2004h]0;dev@box: ~/docker/docker-course/pt1/ex1.1[01;32mdev@box[00m:[01;34m~/docker/docker-course/pt1/ex1.1[00m$ ddoocckkeerr  ccoonnttaaiinneerr  llss
+[?2004lCONTAINER ID   IMAGE     COMMAND                  CREATED          STATUS          PORTS     NAMES
+3bbeff7b6f14   nginx     "/docker-entrypoint.…"   7 seconds ago    Up 7 seconds    80/tcp    hungry_dubinsky
+704127b613e7   nginx     "/docker-entrypoint.…"   9 seconds ago    Up 8 seconds    80/tcp    gallant_austin
+f5d071587bb0   nginx     "/docker-entrypoint.…"   11 seconds ago   Up 11 seconds   80/tcp    inspiring_brattain
+[?2004h]0;dev@box: ~/docker/docker-course/pt1/ex1.1[01;32mdev@box[00m:[01;34m~/docker/docker-course/pt1/ex1.1[00m$ ddoocckkeerr  ccoonn	tt	aa	iner ssttoopp  [200~hungry_dubinsky[201~[7mhungry_dubinsky[27m hungry_dubinsky [200~inspiring_brattain[201~[7minspiring_brattain[27minspiring_brattain
+[?2004lhungry_dubinsky
+inspiring_brattain
+[?2004h]0;dev@box: ~/docker/docker-course/pt1/ex1.1[01;32mdev@box[00m:[01;34m~/docker/docker-course/pt1/ex1.1[00m$ ddoocckkeerr  ppss  --aa
+[?2004lCONTAINER ID   IMAGE     COMMAND                  CREATED              STATUS                      PORTS     NAMES
+3bbeff7b6f14   nginx     "/docker-entrypoint.…"   About a minute ago   Exited (0) 14 seconds ago             hungry_dubinsky
+704127b613e7   nginx     "/docker-entrypoint.…"   About a minute ago   Up About a minute           80/tcp    gallant_austin
+f5d071587bb0   nginx     "/docker-entrypoint.…"   About a minute ago   Exited (0) 14 seconds ago             inspiring_brattain
+58ab35acece3   nginx     "/docker-entrypoint.…"   6 minutes ago        Exited (0) 6 minutes ago              lucid_turing
+[?2004h]0;dev@box: ~/docker/docker-course/pt1/ex1.1[01;32mdev@box[00m:[01;34m~/docker/docker-course/pt1/ex1.1[00m$ [?2004l
+exit
+
+Script done on 2022-03-26 00:09:30+02:00 [COMMAND_EXIT_CODE="0"]

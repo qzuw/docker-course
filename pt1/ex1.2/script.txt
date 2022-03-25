@@ -1,0 +1,78 @@
+Script started on 2022-03-26 00:18:08+02:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="114" LINES="46"]
+[?2004h]0;dev@box: ~/docker/docker-course/pt1/ex1.2[01;32mdev@box[00m:[01;34m~/docker/docker-course/pt1/ex1.2[00m$ ddoocckkeerr  ppss  --aass
+[?2004lCONTAINER ID   IMAGE     COMMAND                  CREATED          STATUS                      PORTS     NAMES                SIZE
+3bbeff7b6f14   nginx     "/docker-entrypoint.…"   10 minutes ago   Exited (0) 9 minutes ago              hungry_dubinsky      1.09kB (virtual 142MB)
+704127b613e7   nginx     "/docker-entrypoint.…"   10 minutes ago   Exited (0) 8 minutes ago              gallant_austin       1.09kB (virtual 142MB)
+f5d071587bb0   nginx     "/docker-entrypoint.…"   10 minutes ago   Exited (0) 9 minutes ago              inspiring_brattain   1.09kB (virtual 142MB)
+58ab35acece3   nginx     "/docker-entrypoint.…"   15 minutes ago   Exited (0) 15 minutes ago             lucid_turing         1.09kB (virtual 142MB)
+[?2004h]0;dev@box: ~/docker/docker-course/pt1/ex1.2[01;32mdev@box[00m:[01;34m~/docker/docker-course/pt1/ex1.2[00m$ ddoocckkeerr  iimm	aa	gess	 
+[?2004lREPOSITORY        TAG       IMAGE ID       CREATED         SIZE
+nginx             latest    f2f70adc5d89   8 days ago      142MB
+roboxes/centos8   latest    de224c55cbdf   12 months ago   931MB
+alpine            3.13      e50c909a8df2   14 months ago   5.61MB
+alpine            3.12      389fef711851   15 months ago   5.58MB
+hello-world       latest    bf756fb1ae65   2 years ago     13.3kB
+alpine            3.7       6d1ef012b567   3 years ago     4.21MB
+[?2004h]0;dev@box: ~/docker/docker-course/pt1/ex1.2[01;32mdev@box[00m:[01;34m~/docker/docker-course/pt1/ex1.2[00m$ ddoocckkeerr  ccoonnttaaiinneerr  pprruunn[Knnee
+[?2004lWARNING! This will remove all stopped containers.
+Are you sure you want to continue? [y/N] yy
+Deleted Containers:
+3bbeff7b6f147391ecc7413b5c420825543baa4038cf72ace6ae0709a533ca94
+704127b613e797e107e849bf19137e1d3ef76e09c9cef9e51aa8bf095b4c9d33
+f5d071587bb0f06ab1f654cc5eeab11ed2ab5826ec26d2309a8d5d0fd678b4fe
+58ab35acece3307b4d31c018f1678567c5b1ad2ba4d892f7e9ac2947b9d54ce9
+
+Total reclaimed space: 4.372kB
+[?2004h]0;dev@box: ~/docker/docker-course/pt1/ex1.2[01;32mdev@box[00m:[01;34m~/docker/docker-course/pt1/ex1.2[00m$ ddoocckkeerr  iimmaagg	e		
+image   images  
+]0;dev@box: ~/docker/docker-course/pt1/ex1.2[01;32mdev@box[00m:[01;34m~/docker/docker-course/pt1/ex1.2[00m$ docker imagess	   pprruu				[K[K[K[K[K[K  pprruu	ne 
+[?2004lWARNING! This will remove all dangling images.
+Are you sure you want to continue? [y/N] yy
+Total reclaimed space: 0B
+[?2004h]0;dev@box: ~/docker/docker-course/pt1/ex1.2[01;32mdev@box[00m:[01;34m~/docker/docker-course/pt1/ex1.2[00m$ [Adocker image prune [Acontainer prune[A[8Pimages [A[1Pps -as[Bimages 
+[?2004lREPOSITORY        TAG       IMAGE ID       CREATED         SIZE
+nginx             latest    f2f70adc5d89   8 days ago      142MB
+roboxes/centos8   latest    de224c55cbdf   12 months ago   931MB
+alpine            3.13      e50c909a8df2   14 months ago   5.61MB
+alpine            3.12      389fef711851   15 months ago   5.58MB
+hello-world       latest    bf756fb1ae65   2 years ago     13.3kB
+alpine            3.7       6d1ef012b567   3 years ago     4.21MB
+[?2004h]0;dev@box: ~/docker/docker-course/pt1/ex1.2[01;32mdev@box[00m:[01;34m~/docker/docker-course/pt1/ex1.2[00m$ [Adocker images [A[5@ prune[C[Acontainer prune[B[3Pimage prune [Acontainer prune[A[8Pimages [A[1Pps -as[A[K[Bs
+[?2004lCONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES     SIZE
+[?2004h]0;dev@box: ~/docker/docker-course/pt1/ex1.2[01;32mdev@box[00m:[01;34m~/docker/docker-course/pt1/ex1.2[00m$ ddoocckkeerr  iimmaagg	e  rrmm  [200~f2f70adc5d89[201~[7mf2f70adc5d89[27m f2f70adc5d89 [200~de224c55cbdf[201~[7mde224c55cbdf[27m de224c55cbdf [200~e50c909a8df2[201~[7me50c909a8df2[27m e50c909a8df2 [200~389fef711851[201~[7m389fef711851[27m 389fef711851 [200~bf756fb1ae65[201~[7mbf75[27m[7m6[27m[7mfb1ae65[27m [A]0;dev@box: ~/docker/docker-course/pt1/ex1.2[01;32mdev@box[00m:[01;34m~/docker/docker-course/pt1/ex1.2[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cbf756fb1ae65 [200~6d1ef012b567[201~[7m6d1ef012b567[27m[C[C[C[C[C[C[C[C[C6d1ef012b567
+[?2004lUntagged: nginx:latest
+Untagged: nginx@sha256:4ed64c2e0857ad21c38b98345ebb5edb01791a0a10b0e9e3d9ddde185cdbd31a
+Deleted: sha256:f2f70adc5d89aa922836e9cc6801980a12a7ff9012446cc6edf52ef8798a67bd
+Deleted: sha256:67ebf5d071658c842ea9aa53588dea5bfb98635a2133151c0699c3eb487c114d
+Deleted: sha256:1bbfd0f49839d5fd15e209e5b7a44bfa4347cfcdf7a288a8f1d39d5a56664418
+Deleted: sha256:b689a5ad0c39e61cbd4532000b49f545169e27578b49492b5c3b368fe07d8337
+Deleted: sha256:16343f21b7f9c1bcb2930c8b6b97b3f8df9136e58492421f0fda966c834e4746
+Deleted: sha256:dfae993a20b32b42b6187b7e223c7f33cc19b2b092fe860a4c29f6dce551e91d
+Deleted: sha256:3a626bb08c24b5cc968d312bf5694aa87b6d9961c5f182c6bc138d8ca8ac13ee
+Untagged: roboxes/centos8:latest
+Untagged: roboxes/centos8@sha256:b048258b70e7d95c71270f13b3f01186481c6447bd82b184a7103ff77eaef6be
+Deleted: sha256:de224c55cbdf87d952e9974e744e55f77dc4b28e90028768e60b4999f5854451
+Deleted: sha256:afab238db083db7875c6a0b94cf4be841332d199cab649ff76292b3e68867b1b
+Untagged: alpine:3.13
+Untagged: alpine@sha256:08d6ca16c60fe7490c03d10dc339d9fd8ea67c6466dea8d558526b1330a85930
+Deleted: sha256:e50c909a8df2b7c8b92a6e8730e210ebe98e5082871e66edd8ef4d90838cbd25
+Deleted: sha256:1119ff37d4a9531330e3b8487863ee8ae0308337351be9d5f8bb38f80790acd9
+Untagged: alpine:3.12
+Untagged: alpine@sha256:3c7497bf0c7af93428242d6176e8f7905f2201d8fc5861f45be7a346b5f23436
+Deleted: sha256:389fef7118515c70fd6c0e0d50bb75669942ea722ccb976507d7b087e54d5a23
+Deleted: sha256:777b2c648970480f50f5b4d0af8f9a8ea798eea43dbcf40ce4a8c7118736bdcf
+Untagged: hello-world:latest
+Untagged: hello-world@sha256:31b9c7d48790f0d8c50ab433d9c3b7e17666d6993084c002c2ff1ca09b96391d
+Deleted: sha256:bf756fb1ae65adf866bd8c456593cd24beb6a0a061dedf42b26a993176745f6b
+Deleted: sha256:9c27e219663c25e0f28493790cc0b88bc973ba3b1686355f221c38a36978ac63
+Untagged: alpine:3.7
+Untagged: alpine@sha256:8421d9a84432575381bfabd248f1eb56f3aa21d9d7cd2511583c68c9b7511d10
+Deleted: sha256:6d1ef012b5674ad8a127ecfa9b5e6f5178d171b90ee462846974177fd9bdd39f
+Deleted: sha256:3fc64803ca2de7279269048fe2b8b3c73d4536448c87c32375b2639ac168a48b
+[?2004h]0;dev@box: ~/docker/docker-course/pt1/ex1.2[01;32mdev@box[00m:[01;34m~/docker/docker-course/pt1/ex1.2[00m$ [Adocker image rm f2f70adc5d89 de224c55cbdf e50c909a8df2 389fef711851 bf756fb1ae65 6d1ef012b567[A[A]0;dev@box: ~/docker/docker-course/pt1/ex1.2[01;32mdev@box[00m:[01;34m~/docker/docker-course/pt1/ex1.2[00m$ [C[C[C[C[C[C[Cps -as[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Aimages 
+[?2004lREPOSITORY   TAG       IMAGE ID   CREATED   SIZE
+[?2004h]0;dev@box: ~/docker/docker-course/pt1/ex1.2[01;32mdev@box[00m:[01;34m~/docker/docker-course/pt1/ex1.2[00m$ [?2004l
+exit
+
+Script done on 2022-03-26 00:21:16+02:00 [COMMAND_EXIT_CODE="0"]

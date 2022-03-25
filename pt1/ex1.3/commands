@@ -1,0 +1,4 @@
+docker run -d devopsdockeruh/simple-web-service:ubuntu
+docker ps -a
+docker exec -it jovial_mestorf tail -f text.log
+
